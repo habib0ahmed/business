@@ -1,0 +1,429 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Cabin', sans-serif;
+}
+
+/*-- START HEADER SECTION --*/
+
+header {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/hd-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+header .main-nav {
+    padding: 20px 0;
+
+}
+
+header .main-nav nav ul li a {
+    text-transform: uppercase;
+    color: #fff !important;
+    font-weight: 500;
+    margin: 10px;
+    cursor: pointer;
+}
+
+header .col-md-7 {
+    padding-top: 120px;
+}
+
+header .col-md-7 h1 {
+    text-transform: capitalize;
+    padding-bottom: 10px;
+}
+
+header .col-md-7 p {
+    text-transform: capitalize;
+    padding-bottom: 10px;
+}
+
+header .col-md-7 .btn {
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: rgba(35, 192, 113, 0.9);
+    border: none;
+    font-family: 'Cabin', sans-serif !important;
+    font-size: 14px !important;
+    color: #fff;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+
+header .col-md-7 .btn:hover {
+    background-color: rgba(4, 255, 129, 0.88);
+}
+
+/*-- END HEADER SECTION --*/
+
+/*-- START FEATURE SECTION --*/
+.feature {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.feature .col {
+    width: 500px;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    display: inline-block !important;
+    padding: 10px;
+    margin: auto 10px;
+}
+
+.feature .col h4 {
+    padding-bottom: -5px;
+    padding-top: 10px;
+    font-weight: 500;
+}
+
+/*-- END FEATURE SECTION --*/
+
+/*-- START OUR STORY SECTION --*/
+.our-story {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+.our-story h2 {
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.our-story p {
+    margin-bottom: 30px;
+}
+
+.our-story .our-btn {
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: rgba(35, 192, 113, 0.9);
+    border: none;
+    font-family: 'Cabin', sans-serif !important;
+    font-size: 14px !important;
+    color: #fff;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+
+/*-- END OUR STORY SECTION --*/
+
+/*-- START OUR CLIENTS SECTION --*/
+
+.our-clients {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.our-clients .clients-box {
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.our-clients img {
+    width: 60px;
+}
+
+/*-- END OUR STORY SECTION --*/
+
+/*-- START SKILLS SECTION --*/
+
+.skills {
+    background-color: rgba(59, 59, 59, 0.99);
+    color: #fff;
+}
+
+.skills .row {
+    padding: 80px 0;
+}
+
+.skills .our-btn {
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: rgba(35, 192, 113, 0.9);
+    border: none;
+    font-family: 'Cabin', sans-serif !important;
+    font-size: 14px !important;
+    color: #fff;
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+
+.skills {
+    padding: 0 20px;
+}
+
+.skill-name {
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+
+.skill-bar {
+    height: 15px;
+    background: #cacaca;
+}
+
+.skill-per {
+    height: 15px;
+    background-color: #36c36e;
+    width: 0;
+    transition: 1s linear;
+    position: relative;
+}
+
+.skill-per::before {
+    content: attr(per);
+    position: absolute;
+    padding: 4px 6px;
+    background-color: #000;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 4px;
+    top: -35px;
+    right: 0;
+    transform: translateX(50%);
+}
+
+.skill-per::after {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #000;
+    top: -16px;
+    right: 0;
+    transform: translateX(50%) rotate(45deg);
+    border-radius: 2px;
+}
+
+/*-- END SKILLS SECTION --*/
+
+/*-- START BLOG POST SECTION --*/
+
+.blog-post {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.blog-post .row {
+    margin: 0 auto;
+}
+
+.blog-post .blog-post-box img {
+    width: 300px;
+    padding-bottom: 20px;
+}
+
+.blog-post .blog-post-box h5 {
+    padding-bottom: 5px;
+    color: #000;
+}
+
+.blog-post .blog-post-box a:hover {
+    text-decoration-color: #000;
+}
+
+.blog-post .blog-post-box span {
+    display: inline-block;
+    padding-right: 40px
+}
+
+/*-- END BLOG POST SECTION --*/
+
+/*-- START ARE YOU READY SECTION --*/
+
+.are-you-ready {
+    padding-top: 35px;
+    padding-bottom: 25px;
+    background-color: #36c36e;
+    color: #fff;
+}
+
+.are-you-ready a {
+    float: right;
+    cursor: pointer;
+    text-transform: uppercase;
+    border: none;
+    font-family: 'Cabin', sans-serif !important;
+    font-size: 14px !important;
+    color: #fff;
+    padding: 10px 20px;
+    border: 2px solid #fff;
+}
+
+.are-you-ready a:hover {
+    color: #fff;
+}
+
+/*-- END ARE YOU READY SECTION --*/
+
+/*-- START FOOTER SECTION --*/
+
+footer {
+    color: #fff;
+    background-color: #232323;
+    padding: 20px 0;
+}
+
+footer .logo {
+    margin: auto 0;
+}
+
+/*-- END FOOTER SECTION --*/
+
+
+
+/*======================*/
+/* START ABOUT US PAGE --*/
+/*======================*/
+
+.nav-bg-for-about {
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/photo-of-people-doing-handshakes-3183197.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #000;
+}
+
+.for-about nav ul li a {
+    text-transform: uppercase;
+    color: #fff !important;
+    font-weight: 500;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.nav-bg-for-about .about-box {
+    padding: 100px 0;
+    color: #fff;
+}
+
+.nav-bg-for-about .about-box .h1 {
+    font-size: 55px;
+}
+
+.nav-bg-for-about .about-box p {
+    font-size: 20px;
+    max-width: 700px;
+    margin: auto;
+}
+
+.about-us-post {
+    padding-top: 100px
+}
+
+.about-us-post .col-md-6 h2 {
+    font-size: 50px;
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: 100 !important;
+}
+
+.about-us-post .col-md-6 p {
+    padding-bottom: 50px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.about-us-post .box-two {
+    background-color: #36c36e;
+    color: rgba(255, 255, 255, 0.8);
+    padding: 60px 0;
+}
+
+/*======================*/
+/* END ABOUT US PAGE --*/
+/*======================*/
+
+/*======================*/
+/* START CONTACT US PAGE --*/
+/*======================*/
+
+.nav-bg-for-contact {
+    width: 100%;
+    background: #36c36e;
+    color: #000;
+}
+
+.contact-des h2.title {
+    font-size: 45px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.contact-des .contact-button {
+    margin-top: 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+    border: none;
+    font-family: 'Cabin', sans-serif !important;
+    font-size: 14px !important;
+    color: #fff;
+    background-color: #36c36e;
+    padding: 10px 20px;
+}
+
+/*======================*/
+/* END CONTACT US PAGE --*/
+/*======================*/
+
+
+/*======================*/
+/* START PORTFOLIO PAGE --*/
+/*======================*/
+
+.porfolio-section h2 {
+    font-size: 45px;
+    margin: 100px;
+}
+
+.porfolio-section img {
+    border-radius: 5px;
+    box-shadow: 1px 1px 50px rgba(0, 0, 0, 0.2)
+}
+
+.porfolio-section p {
+    font-size: 18px;
+}
+
+.porfolio-section h4 {
+    font-size: 30px;
+    margin: 20px 0;
+}
+
+.porfolio-section li {
+    font-size: 18px;
+}
+
+.porfolio-section a.btn {
+    cursor: pointer;
+    text-transform: uppercase;
+    border: none;
+    font-family: 'Cabin', sans-serif !important;
+    font-size: 14px !important;
+    color: #fff;
+    display: inline-block;
+    margin:0 auto;
+    background-color: #36c36e;
+    padding: 12px 40px;
+}
+
+/*======================*/
+/* END PORTFOLIO PAGE --*/
+/*======================*/
